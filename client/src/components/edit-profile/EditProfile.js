@@ -123,6 +123,11 @@ class CreateProfile extends Component {
     // Initialize social inputs
     let socialInputs;
 
+    // if (this.state.facebook) {
+    //   console.log(this.state.facebook);
+    //   this.setState({ displaySocialInputs: true });
+    // }
+
     if (displaySocialInputs) {
       socialInputs = (
         <div>
